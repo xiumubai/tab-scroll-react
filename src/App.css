@@ -1,0 +1,20 @@
+.tabs {
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: scroll;
+}
+
+.tab-item {
+  flex: 1;
+  flex-shrink: 0;
+  flex-basis: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 200px;
+  border-right: 1px solid #000;
+  font-size: 16px;
+  background-color: #8ce397;
+}
